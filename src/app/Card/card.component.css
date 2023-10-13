@@ -1,0 +1,35 @@
+.carasoulWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carasoulWrapper button{
+    margin: 0 20px;
+    border: 0;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.imageContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.buttonsContainer{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    max-width: 400px;
+}
+
+.buttonsContainer span{
+    width: 20px;
+    height: 7px;
+    background-color: grey;
+    margin: 10px 5px;
+    border-radius: 8px;
+    cursor: pointer;
+}
